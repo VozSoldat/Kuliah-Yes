@@ -9,9 +9,11 @@ class PercobaanPemilihan119a {
         Scanner input19 = new Scanner(System.in);
         System.out.print("Masukkan angka: ");
         int angka = input19.nextInt();
-        
-        String jenisBilangan = (angka % 2 == 0) ? "genap" : "ganjil";
-        System.out.println("Angka " + angka + " bilangan " + jenisBilangan);
+        String jenisBilangan;
+
+        float mdls = angka % 2;
+        jenisBilangan = (mdls % 2 == 0) ? "genap" : "ganjil";
+        System.out.println("Angka tersebut adalah bilangan " + jenisBilangan);
     
     
 
