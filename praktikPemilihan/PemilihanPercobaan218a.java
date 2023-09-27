@@ -1,6 +1,6 @@
 package praktikPemilihan;
 import java.util.Scanner;
-public class PemilihanPercobaan219 {
+public class PemilihanPercobaan218a {
 
     public static void main(String[] args) {
         
