@@ -1,6 +1,6 @@
 package praktikPemilihan;
 import java.util.Scanner;
-public class PemilihanPercobaan318 {
+public class PemilihanPercobaan318a {
 
     public static void main(String[] args) {
         
@@ -19,10 +19,10 @@ public class PemilihanPercobaan318 {
         operator = input18.next().charAt(0);
 
         switch (operator) {
-            case '+':
+           case '+':
                 hasil = angka1 + angka2;
                 System.out.println(angka1 + "+" + angka2 + "=" + hasil);
-                break;
+                
             case '-':
                 hasil = angka1 - angka2;
                 System.out.println(angka1 + "-" + angka2 + "=" + hasil);
@@ -35,7 +35,6 @@ public class PemilihanPercobaan318 {
                 hasil = angka1 / angka2;
                 System.out.println(angka1 + "/" + angka2 + "=" + hasil);
                 break;
-        
         }
 
     }
