@@ -13,7 +13,7 @@ class Pemilihan2Percobaan318 {
         System.out.print("Masukkan : ");
         penghasilan = input18.nextInt();
 
-        if (kategori.equals("pekerja")) {
+        if (kategori.equalsIgnoreCase("pekerja")) {
             if (penghasilan <= 2000000) {
                 pajak = 0.1;
             } else {
@@ -24,7 +24,7 @@ class Pemilihan2Percobaan318 {
                 }
             }
         } else {
-            if (kategori.equals("pebisnis")) {
+            if (kategori.equalsIgnoreCase("pebisnis")) {
                 if (penghasilan <= 2500000) {
                     pajak = 0.15;
                 } else {
