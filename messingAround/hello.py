@@ -2,10 +2,10 @@ sudut1=int(input("Masukkan sudut 1: "))
 sudut2=int(input("Masukkan sudut 2: "))
 sudut3=int(input("Masukkan sudut 3: "))
 
-totalSudut=sudut1+sudut2+sudut3
-#print(totalSudut)
+total_sudut=sudut1+sudut2+sudut3
+#print(total_sudut)
 
-if totalSudut == 180:
+if total_sudut == 180:
     if sudut1 == 90 or sudut2 == 90 or sudut3 == 90:
         print("Segitiga siku-siku.")
     elif sudut1==sudut2 and sudut2==sudut3:
@@ -14,5 +14,5 @@ if totalSudut == 180:
         print("Segitiga sama kaki.")
     else:
         print("Segitiga sembarang.")
-else:
+elif total_sudut != 180:
     print("Bukan segitiga.")

@@ -4,6 +4,7 @@ import java.util.Scanner;
 class Pemilihan2Percobaan218a {
 
     public static void main(String[] args) {
+
         Scanner input18 = new Scanner(System.in);
         float sudut1, sudut2, sudut3, totalSudut;
 
