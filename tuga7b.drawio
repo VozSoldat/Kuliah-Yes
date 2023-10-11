@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T02:40:42.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="oyuITG4e-KA0aSDVTUn2" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T02:41:08.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="8DFKTLgaOk9GADMjUaUe" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,12 +54,12 @@
         <mxCell id="vMy7lp-GARfgnjaNP-xQ-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="315.2" y="390" width="31.6" height="31.6" as="geometry" />
         </mxCell>
-        <mxCell id="vMy7lp-GARfgnjaNP-xQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vMy7lp-GARfgnjaNP-xQ-8" target="vMy7lp-GARfgnjaNP-xQ-10">
+        <mxCell id="vMy7lp-GARfgnjaNP-xQ-9" value="T" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vMy7lp-GARfgnjaNP-xQ-8" target="vMy7lp-GARfgnjaNP-xQ-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vMy7lp-GARfgnjaNP-xQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vMy7lp-GARfgnjaNP-xQ-8" target="vMy7lp-GARfgnjaNP-xQ-16">
+        <mxCell id="vMy7lp-GARfgnjaNP-xQ-15" value="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vMy7lp-GARfgnjaNP-xQ-8" target="vMy7lp-GARfgnjaNP-xQ-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="331" y="740" as="targetPoint" />
           </mxGeometry>
@@ -81,8 +81,16 @@
         <mxCell id="vMy7lp-GARfgnjaNP-xQ-12" value="i--" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="440" y="375.8" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vMy7lp-GARfgnjaNP-xQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vMy7lp-GARfgnjaNP-xQ-16" target="vMy7lp-GARfgnjaNP-xQ-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vMy7lp-GARfgnjaNP-xQ-16" value="print &quot;hasil: &quot; + total" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="246.5" y="710" width="169" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vMy7lp-GARfgnjaNP-xQ-18" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="271" y="820" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
