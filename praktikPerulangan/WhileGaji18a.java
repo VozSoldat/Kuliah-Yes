@@ -1,6 +1,6 @@
 package praktikPerulangan;
 import java.util.Scanner;
-public class WhileGaji18 {
+public class WhileGaji18a {
     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     int jumlahKaryawan, jumlahJamLembur;
@@ -30,6 +30,10 @@ public class WhileGaji18 {
         }
         else if (jabatan.equalsIgnoreCase("karyawan")) {
             gajiLembur = jumlahJamLembur * 75000;
+        } else {
+            System.out.println("Jabatan invalid.");
+            i--;
+            continue;
         }
 
         totalGajiLembur += gajiLembur;
