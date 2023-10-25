@@ -1,6 +1,6 @@
 package praktikArray;
 import java.util.Scanner;
-class ArrayNilai {
+class ArrayNilai18 {
 
     public static void main(String[] args) {
         int[] nilaiAkhir = new int[10];
