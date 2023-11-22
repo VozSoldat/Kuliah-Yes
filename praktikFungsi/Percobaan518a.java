@@ -1,5 +1,5 @@
-public class Percobaan518 {
-    static void Tampil(String str, int... a){
+public class Percobaan518a {
+    static void Tampil(String... str, int... a){
         System.out.println("String: "+ str);
         System.out.println("Jumlah argumen/parameter: "+ a.length);
 
