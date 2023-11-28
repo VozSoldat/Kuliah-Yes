@@ -13,7 +13,7 @@ public class percobaan3 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double saldoAwal;
+        int saldoAwal;
         int tahun;
 
         System.out.print("Jumlah saldo awal : ");
@@ -22,6 +22,6 @@ public class percobaan3 {
         tahun = sc.nextInt();
 
         System.out.print("Jumlah saldo setelah "+tahun+" tahun " );
-        System.out.print(hitungLaba(tahun, tahun));
+        System.out.print(hitungLaba(saldoAwal, tahun));
     }
 }
